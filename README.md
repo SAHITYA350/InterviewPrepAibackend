@@ -2,6 +2,11 @@
 
 Node.js and Express backend with MongoDB, authentication, file uploads, and AI integrations (Google GenAI + OpenAI).
 
+<img width="1906" height="909" alt="Screenshot 2026-02-27 184027" src="https://github.com/user-attachments/assets/75ab2fb2-052c-4ab3-b82e-376f4fe61397" />
+<img width="1923" height="925" alt="Screenshot 2026-02-27 184111" src="https://github.com/user-attachments/assets/ae2a4595-ede1-43dc-9b66-ffdaa4d4deb5" />
+<img width="1923" height="922" alt="Screenshot 2026-02-27 184124" src="https://github.com/user-attachments/assets/77388af4-f890-4579-b4f8-ce4b1f3d633b" />
+<img width="1923" height="929" alt="Screenshot 2026-02-27 184207" src="https://github.com/user-attachments/assets/4530ad1a-96cc-4d10-999d-620eb9b9bf3e" />
+
 ---
 
 ## Tech Stack
