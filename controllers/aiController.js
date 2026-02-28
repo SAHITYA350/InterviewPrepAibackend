@@ -61,10 +61,12 @@ const generateInterviewQuestions = async (req, res) => {
         model: "meta-llama/llama-4-scout-17b-16e-instruct",
         messages: [{ role: "user", content: prompt }],
         temperature: 0.7,
+        response_format: { type: "json_object" },
       });
       const text = response.choices[0].message.content;
       const cleanedText = cleanJsonText(text);
-      return JSON.parse(cleanedText);
+      const parsed = JSON.parse(cleanedText);
+      return parsed.questions || parsed;
     });
 
     res.status(200).json(data);
